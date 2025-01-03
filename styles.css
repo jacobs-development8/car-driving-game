@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Unica One', cursive;
+}
+
+#scoreboard{
+    color: #fff;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+#game-area {
+    display: flex;
+    justify-content: center;
+}
+
+#road {
+    background: #000;
+    width: 30vw;
+    height: 90.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.road-line {
+    width: 10px;
+    height: 100px;
+    background: #fff;
+    margin: 1em 0;
+    position: absolute;
+
+}
+
+.car {
+    width: 15%;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.hide-black{
+    color: #000;
+}
+
+#player-car{
+    background: #fff;
+    top: 250px;
+    left: 165px;
+}
+
+.enemy{
+
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+#menue{
+    width: 70%;
+    height: 40%;
+    z-index: 1;
+    background-color: rgba(255, 13, 13, 0.8);
+    background: #000;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
